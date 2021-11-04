@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fde4ff;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    background: #fff;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #AD0065;
+    text-align: center;
+}
+
+a{
+    color: #00cfd3;
+    text-decoration: none;
+}
+a:hover{
+    color: #2DF3F6;
+}
+    
+p{
+    text-align: left;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    margin: 15px 10px;
+}
+
+video{
+    
+    padding: 50px 0;
+}
+
+
+#cabecalho{
+    
+    width: 1250px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#logo{
+    background: url(../imagem/logo.png);
+    width: 829px;
+    height: 224px;
+    margin: 50px 210px;
+}
+
+#logo:hover{
+    background: url(../imagem/logolig.png);
+    width: 829px;
+    height: 224px;
+    margin: 50px 210px;
+}
+
+#menu{
+    margin: 0 380px;
+    display: block;
+}
+
+#menu li{
+    
+    line-height: 1.9em;
+    float: left;
+    padding: 2px 0;
+    margin: 2px;
+    
+}
+
+#menu  a{
+    text-decoration: none;
+    text-transform: uppercase ;
+    color: #fff;
+    
+    display: block;
+    padding: 2px 20px;
+    background: #AD0065 ;
+    border: 2px solid #fff;
+}
+
+#menu a:hover{
+    color: #AD0065;
+    background: #fff;
+    border: 2px solid #AD0065;
+    font-size: 1em;
+}
+
+#botao-cabecalho a.selecionado{
+    
+    color: #AD0065;
+    background: #fff;
+    border: 2px solid #AD0065;
+    font-size: 1.2em;
+}
+
+/*conteudo*/
+
+
+
+#conteiner{
+    width: 1250px;
+    max-width: 1250px;
+    margin: 0 auto;
+    background: lightblue;
+    
+    float: none;
+
+}
+
+
+
+
+#principal{
+    width: 650px;
+    background-color: #fff;
+    float: left;
+    margin: 0 0 20px 300px;
+}
+
+#duas-colunas #principal{
+    width: 950px;
+}
+
+
+#conteudo-principal{
+    text-align: center;
+}
+
+#conteudo-principal img{
+    border: 2px solid #fff;
+    margin: 10px 0;
+}
+
+#conteudo-principal p{
+    
+    
+    color: #000;
+    
+}
+
+#secundario{
+    width: 280px;
+    
+    float: left;
+    margin: 0 0 20px 20px;
+    
+}
+
+#secundario p{
+    font-weight: bold;
+    border-top: 1px solid #000;
+    
+    
+}
+
+#secundario p:hover{
+    background: rgba(216, 216, 216,0.5);
+    
+    
+}
+
+#secundario p img{
+    border: 1px solid #fff;
+    
+    
+    
+}
+
+
+#lateral{
+    width: 280px;
+    
+    float: left;
+    margin: 0 0 20px -1250px;
+    
+}
+
+#conteudo-lateral li{
+    background: #AD0065;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/*rodape*/
+
+#rodape{
+
+    width: 35;
+    line-height: 1.9em;
+    clear: left;
+    text-align: center;
+    padding: 25px;
+    background: #000 url(../imagem/logorodape.png) no-repeat right center;
+    color: #AD0065;
+    
+
+}
